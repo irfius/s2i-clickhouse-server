@@ -17,7 +17,7 @@ services:
       nofile:
         soft: 262144
         hard: 262144
-  clickhouse-tabix-ui:
+  clickhouse-tabix-ui: # dont need it. dbeaver
     image: spoonest/clickhouse-tabix-web-client:stable
     depends_on:
       - clickhouse-server
